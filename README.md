@@ -1,2 +1,3 @@
-# Python_VirtualAssistant
-Baed on https://www.wolframalpha.com/
+# Pydex - Python Virtual Assistant
+![Pydex_PythonVirtualAssistant](pydex.pdf)
+My [LinkedIn](https://www.linkedin.com/in/nadav-chen22/)
