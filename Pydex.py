@@ -1,3 +1,5 @@
+# Made By Nadav Chen
+
 import wolframalpha
 import wikipedia
 import wx
@@ -21,6 +23,8 @@ class MyFrame(wx.Frame):  # The GUI for the App
         panel.SetSizer(sizer)
         self.Show()
 
+# Made By Nadav Chen
+
     def OnEnter(self, event):  # User interaction
         user_input = self.txt.GetValue()
         user_input = user_input.lower()
@@ -36,7 +40,8 @@ class MyFrame(wx.Frame):  # The GUI for the App
             # In case the user enter a question word like "What" "Where is" and so on...
             user_input = " ".join(input[2:])
             print(wikipedia.summary(user_input, sentences=2))
-
+            
+# Made By Nadav Chen
 
 if __name__ == "__main__":
     app = wx.App(True)
